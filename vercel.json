@@ -1,1 +1,1 @@
-{"cleanUrls":true}
+{"cleanUrls":true,"rewrites":[{"source":"/api/bilim/:action","destination":"/api/bilim?action=:action"}],"headers":[{"source":"/api/(.*)","headers":[{"key":"Cache-Control","value":"no-store"}]}]}
